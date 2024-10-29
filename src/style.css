@@ -1,0 +1,54 @@
+/* General body styling */
+body {
+    background-color: #2f2f2f;
+    color: #fff;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  /* Navigation menu styling */
+  nav {
+    background-color: #1e1e1e;
+    border-bottom: 2px solid #33ccff;
+    box-shadow: 0 0 10px #33ccff;
+  }
+  
+  nav ul {
+    display: flex; /* Use Flexbox to create a horizontal layout */
+    justify-content: space-around; /* Center the menu items horizontally */
+    list-style-type: none;
+    align-items: center;
+    
+    margin-bottom: 1rem;
+    padding: 1rem;
+    
+    border-radius: 14px;
+    border-bottom: #fff;
+  }
+  
+  
+  
+  nav a {
+    color: #ff99cc;
+    text-decoration: none;
+    text-shadow: 0 0 10px #ff99cc;
+    
+    border-radius: 14px;
+    border-bottom: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #333;
+    color: #33ccff;
+    text-shadow: 0 0 10px #33ccff;
+  }
+  
+  /* Main content container styling */
+  .main-content {
+    padding: 20px;
+    margin-top: 20px; /* Space for the horizontal navigation bar */
+  }
+  
